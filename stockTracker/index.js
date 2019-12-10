@@ -12,7 +12,11 @@ app.set('view engine', 'handlebars');
 // mapping
 app.get('/', function(req, res) {
 	res.render('home');
-})
+});
+
+app.get('/about.html', function(req, res) {
+	res.render('about');
+});
 
 // point to folder name
 app.use(express.static(path.join(__dirname, 'site')));
