@@ -1,0 +1,25 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "this is a repo for testing out stuff with node",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksthorn/Node.js.git"
+  },
+  "author": "Maks Drzezdzon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maksthorn/Node.js/issues"
+  },
+  "homepage": "https://github.com/Maksthorn/Node.js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.0"
+  }
+}
